@@ -70,8 +70,9 @@ const Contact = () => {
 
           <h2>Email us</h2>
           <p>
-            raphaelsmith@hotmail.com <br />
-            hkanu0807@gmail.com
+            raphaelsmith@hotmail.com
+            <br />
+            Info@nen3y.com
           </p>
 
           <h2>Our Address</h2>

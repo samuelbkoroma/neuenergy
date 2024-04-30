@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
