@@ -22,7 +22,7 @@ const Hero = () => {
             quality healthcare without financial strain. solutions and <br />
             sustainable transport experience
           </p>
-          <Link to="/about">
+          <Link to="/">
             <motion.div
               className="discover-more"
               whileHover={{ scale: 1.2 }}
