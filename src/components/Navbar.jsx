@@ -50,23 +50,23 @@ const Navbar = () => {
     <Div>
       <nav className={color ? "header header-bg" : "header"}>
         <div className="logo">
-          <Link to="/">
-            <img src="assets/neuenergy.jpg" alt="" height={20} width={90} />
+          <Link to="#">
+            <img src="assets/wblogo.jpg" alt="" height={20} width={90} />
           </Link>
         </div>
         <ul className={color ? "uli ulibg" : "uli"}>
-          <Link to="/">
+          <Link to="#">
             <li>Home</li>
           </Link>
-          <Link to="/about">
+          <Link to="#">
             <li>About</li>
           </Link>
-          <Link to="/contact">
+          <Link to="#">
             <li>Contact</li>
           </Link>
 
-          <Link to="/service">
-            <li>Products</li>
+          <Link to="#">
+            <li>Services</li>
           </Link>
         </ul>
 

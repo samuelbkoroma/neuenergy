@@ -1,8 +1,5 @@
 import styled from "styled-components";
-import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Footer from "../components/Footer";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -33,21 +30,6 @@ const Contact = () => {
 
   return (
     <Div>
-      <div className="top-hero">
-        <Navbar /> <br /> <br />
-        <h1>About Us</h1>
-        <div className="linkk">
-          <Link to="/">
-            {" "}
-            <p>Home</p>
-          </Link>
-
-          <Link to="/contact">
-            <p>Contact Us</p>
-          </Link>
-        </div>
-      </div>
-
       <motion.div
         className="contact-form"
         initial={{
@@ -133,8 +115,6 @@ const Contact = () => {
           loading="lazy"
         ></iframe>
       </motion.div>
-
-      <Footer />
     </Div>
   );
 };

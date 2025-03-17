@@ -20,7 +20,7 @@ const Team = () => {
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        Meet the Minds Behind NeuEnergy
+        Meet the Minds Behind Wellbank
       </motion.div>
       <motion.div
         className="sub-heading"
@@ -40,8 +40,8 @@ const Team = () => {
           viewport={{ once: true }}
           className="member1"
         >
-          <img src="assets/t1.png" alt="" />
-          <h2 className="naame">Raphael Smith </h2>
+          <img src="assets/teammember1.jpg" alt="" width={200} height={200} />
+          <h2 className="naame">Emmanuel Saati </h2>
           <p className="position">Chief Executive Officer</p>
         </motion.div>
 
@@ -52,9 +52,9 @@ const Team = () => {
           viewport={{ once: true }}
           className="member1"
         >
-          <img src="assets/t2.png" alt="" />
-          <h2 className="naame">Hassan Kamara</h2>
-          <p className="position">Executive Director</p>
+          <img src="assets/teammember1.jpg" alt="" width={200} height={200} />
+          <h2 className="naame">Emmanuel Saati </h2>
+          <p className="position">Chief Executive Officer</p>
         </motion.div>
 
         <motion.div
@@ -64,9 +64,9 @@ const Team = () => {
           viewport={{ once: true }}
           className="member1"
         >
-          <img src="assets/t3.png" alt="" />
-          <h2 className="naame">Hassan Kanu</h2>
-          <p className="position">IT Specialist</p>
+          <img src="assets/teammember1.jpg" alt="" width={200} height={200} />
+          <h2 className="naame">Emmanuel Saati </h2>
+          <p className="position">Chief Executive Officer</p>
         </motion.div>
       </div>
     </Div>
@@ -129,7 +129,6 @@ const Div = styled.div`
   }
 
   .member1 img {
-    width: 100%;
   }
 
   .naame {

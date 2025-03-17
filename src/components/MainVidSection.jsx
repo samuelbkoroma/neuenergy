@@ -64,7 +64,7 @@ const MainVidSection = () => {
               transition={{ duration: 0.9 }}
               viewport={{ once: true }}
             >
-              <img src="assets/playbutton.png" alt="" />
+              <img src="assets/mainhome.png" alt="" />
             </motion.div>
 
             <Modal

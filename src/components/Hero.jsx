@@ -11,12 +11,16 @@ const Hero = () => {
       <div className="main-hero">
         <div className="texts">
           <h3 className="creative">We are Creative Digital Company</h3>
-          <h1 className="strategic">
-            Energizing Tomorrow's Journey: <br /> Welcome To NeuEnergy
-          </h1>
+          <h1 className="strategic">Welcome to Wellbank</h1>
           <p className="invest">
-            Elevate your travels with cutting-edge electric mobility <br />{" "}
-            solutions and sustainable transport experience
+            Affordable Health Financing for Employees Worried about unexpected{" "}
+            <br />
+            medical expenses? Wellbank helps companies provide a dedicated{" "}
+            <br />
+            Health Payment Account for their employees, ensuring access to{" "}
+            <br />
+            quality healthcare without financial strain. solutions and <br />
+            sustainable transport experience
           </p>
           <Link to="/about">
             <motion.div
@@ -45,7 +49,7 @@ const Hero = () => {
           viewport={{ once: true }}
         >
           <img
-            src="assets/keke.png"
+            src="assets/mainhome.png"
             alt=""
             className="keke-pic"
             width={450}

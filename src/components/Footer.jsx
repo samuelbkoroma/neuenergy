@@ -5,7 +5,7 @@ const Footer = () => {
     <Div>
       <footer>
         <div className="logo-section">
-          <img src="assets/neuenergy.jpg" alt="" width={90} height={90} />
+          <img src="assets/wblogo.jpg" alt="" width={90} height={90} />
 
           <p>
             Making the world a better place through constructing <br /> elegant
